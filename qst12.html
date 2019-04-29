@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Questão 12</title>
 </head>
+
 <body>
-    
+    <div id="x">7</div>
+    <div id="y">5</div>
+    <div id="produto"></div>
+    <div id="soma"></div> 
+
+    <script>
+
+        var x = document.getElementById("x").textContent;
+        var y = document.getElementById("y").textContent;
+        var produto = document.getElementById("produto");
+        var soma = document.getElementById("soma");
+       
+        produto.textContent = "O Produto de " + x + " e " + y + " é " + x * y;
+        soma.textContent = "A soma de " + x + " e " + y + " é " + (x + y);
+
+
+    </script>
+
 </body>
+
 </html>
